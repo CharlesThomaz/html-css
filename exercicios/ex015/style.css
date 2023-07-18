@@ -1,0 +1,33 @@
+@charset "UTF-8";
+        body{background-color: aquamarine;font-family: Arial, Helvetica, sans-serif;font-size:large; }
+        h1{background-color: burlywood;}
+        p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify;}
+        h2{color: brown;text-align: center;}
+           
+
+.light-theme {
+        --bg: var(--green);
+        --FontColor: var(--black);
+        --btnBg: var(--black)
+        btnFontColor: var(--white);
+        }
+
+.dark-theme {
+         --bg: var(--black);
+         --FontColor: var(--green);
+         --btnFontColor: var(--white);
+         --btnFontColor: var(--black);}
+
+         
+        .btn     {
+                position: absolute;
+                top: 20px;
+                left: 250px;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                border: none;
+                color: var(--btnFontColor);
+                background-color:var(--btnBg);
+            }
+            .btn:focus {outline-style: none;}
