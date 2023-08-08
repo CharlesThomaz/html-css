@@ -3,6 +3,6 @@
 /*Aparelho deitado(Landscape)*/
 
 body {
-    background-image: url(paisagem.css);
+    background-image: url(../imagens/cev-landscape.jpg);
     background-position: left bottom;
 }
